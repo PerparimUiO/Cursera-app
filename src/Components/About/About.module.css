@@ -1,0 +1,61 @@
+.about {
+  width: 65%;
+  margin: 0 auto;
+  font-family: "Markazi Text";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.about__text {
+  font-size: 3rem;
+  color: #495e57;
+
+  margin-top: 2rem;
+}
+
+.about__text h1 {
+  color: #333;
+  text-decoration: underline;
+  font-size: 6rem;
+}
+
+.about__imgs {
+  margin-top: 5rem;
+}
+
+.about__imgs p {
+  font-size: 2rem;
+  color: #333;
+}
+
+.about__imgs img {
+  height: 50rem;
+}
+
+.about__imgs img:first-of-type {
+  margin-right: 5rem;
+}
+
+@media screen and (max-width: 1380px) {
+  .about__imgs img {
+    height: 40rem;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .about__imgs img {
+    height: 30rem;
+  }
+  .about__imgs img:first-of-type {
+    margin-right: 10rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .about {
+    width: 100%;
+    padding: 2rem 4rem;
+  }
+  .about__imgs img:first-of-type {
+    margin-right: 5rem;
+  }
+}

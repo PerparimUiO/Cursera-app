@@ -1,0 +1,32 @@
+.container {
+  text-align: center;
+  margin: 19rem 0;
+}
+
+.msg {
+  font-size: 6rem;
+  color: #333;
+  font-family: "Markazi Text";
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.redirect-msg {
+  font-size: 2.5rem;
+  color: #333;
+  font-family: "Markazi Text";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.link:link,
+.link:visited {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.link:hover,
+.link:active {
+  color: #495e57;
+}
